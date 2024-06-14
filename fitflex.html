@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navigation{
+    color: blanchedalmond;
+    background-color: darkblue;
+    padding: 1px;
+    
+}
+.navigation ul{
+    display: inline;
+    list-style-type: none;
+    margin-right: 0px;
+    display: flex; 
+     justify-content: center;
+    
+}
+.navigation li {
+    float: left;
+    padding: 8px;
+    text-size-adjust: 70%;
+    }
+    
+    .quote {
+            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 80vh;
+            margin-bottom: 20px; 
+        }
+    .quote h1 {
+    color: blue;
+    font-size: 35px; 
+    margin-bottom: 0;
+}
+.quote h2{
+    color: aqua;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.join-form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px; 
+            margin: auto;
+        }
+
+        .join-form label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .join-form input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .join-form button {
+            background-color: darkblue;
+            color: blanchedalmond;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .join-form button:hover {
+            background-color: #001f3f;
+        }
+        </style>
+
+    </head>
+    <body>
+        <div class="navigation" id="box">
+            <ul>
+               
+                <li>HOME</a></li>
+                <li>JOIN US</a></li>
+                <li>DIET PLAN</a></li>
+                <li>WORKOUT PLAN</a></li>
+        </ul>
+        </div>
+        <div class="quote">
+            <h1>MAKE YOURSELF PROUD</h1>
+            <h2>with flexfit gym</h2>
+        </div>
+        <div class="join-form">
+            <h3>Join FlexFit Gym</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <button type="submit">Join Now</button>
+            </form>
+        </div>
+    </body>
+</html>
